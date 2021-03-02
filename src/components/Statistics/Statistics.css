@@ -1,0 +1,13 @@
+.Statistics h1 {
+    text-align: center;
+    font-size: x-large;
+    text-decoration: solid underline;
+}
+
+.Statistics-Nickname {
+    text-align: center;
+}
+
+.test {
+    border: 1px black solid;
+}
