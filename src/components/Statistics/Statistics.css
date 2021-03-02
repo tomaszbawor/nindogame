@@ -1,3 +1,11 @@
+.Statistics {
+    padding-bottom: 10px;
+}
+
+.Statistics-Image {
+    max-width: 100%;
+}
+
 .Statistics h1 {
     text-align: center;
     font-size: x-large;
@@ -6,8 +14,4 @@
 
 .Statistics-Nickname {
     text-align: center;
-}
-
-.test {
-    border: 1px black solid;
 }
