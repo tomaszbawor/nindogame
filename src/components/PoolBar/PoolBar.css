@@ -4,3 +4,6 @@
 .PoolBar-label {
     font-size: small;
 }
+.PoolBar-label span {
+    font-size: x-small;
+}

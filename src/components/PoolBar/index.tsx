@@ -16,7 +16,11 @@ export const PoolBar: React.FC<PoolBarProps> = (props: PoolBarProps) => {
   const percent = (currentValue / maxValue) * 100;
   return (
     <div className="PoolBar">
-      <div className="PoolBar-label">{poolType}</div>
+      <div className="PoolBar-label">
+        {poolType}
+        &nbsp;
+        <span>{`(${currentValue}/${maxValue})`}</span>
+      </div>
       <div className="progress">
         <div
           className={`progress-bar ${barClass}`}
