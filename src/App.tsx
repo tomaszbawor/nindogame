@@ -1,7 +1,7 @@
 import React from 'react';
-import {ActionBar} from "./components/ActionBar";
-import {Statistics} from "./components/Statistics";
-import {Content} from "./components/Content";
+import {ActionBar} from "./layout/ActionBar";
+import {Statistics} from "./layout/Statistics";
+import {Content} from "./layout/Content";
 
 function App() {
     return (
