@@ -1,6 +1,5 @@
 import React from "react";
-import "./PoolBar.css";
-import { stringify } from "querystring";
+import "./PoolBar.scss";
 
 type PoolType = "Chakra" | "Stamina" | "Health"
 

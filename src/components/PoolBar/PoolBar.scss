@@ -1,0 +1,11 @@
+.PoolBar {
+  padding-top: 10px;
+
+  &-label {
+    font-size: small;
+
+    span {
+      font-size: x-small;
+    }
+  }
+}
