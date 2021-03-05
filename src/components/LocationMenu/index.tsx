@@ -1,6 +1,6 @@
 import React from "react";
 import * as Icon from 'react-bootstrap-icons';
-import "./LocationMenu.css"
+import "./LocationMenu.scss"
 
 export const LocationMenu: React.FC<{}> = () => {
   return (
