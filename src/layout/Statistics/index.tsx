@@ -1,5 +1,5 @@
 import React from "react";
-import "./Statistics.css";
+import "./Statistics.scss";
 import { PoolBar } from "../../components/PoolBar";
 
 export const Statistics: React.FC<{}> = () => {
