@@ -14,7 +14,7 @@ export const PoolBar: React.FC<PoolBarProps> = (props: PoolBarProps) => {
   const barClass = getBarClass(poolType);
   const percent = (currentValue / maxValue) * 100;
   return (
-    <div className="PoolBar">
+    <div className="poolbar">
       <div className="PoolBar-label">
         {poolType}
         &nbsp;
