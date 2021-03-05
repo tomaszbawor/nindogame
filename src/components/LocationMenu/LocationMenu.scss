@@ -1,0 +1,55 @@
+.location-menu {
+
+  box-sizing: content-box;
+  $content-width: 100%;
+  $borderType: 1px solid black;
+
+  &-content {
+    padding: 10px;
+    width: $content-width;
+    border: $borderType;
+  }
+
+  button {
+    border: 0;
+    width: $content-width / 5;
+    border-left: $borderType;
+    padding: 10px 15px;
+  }
+
+  &-top {
+    display: flex;
+
+    button {
+      border-top: $borderType;
+
+      &:first-child {
+        border-top-left-radius: 20px;
+      }
+
+      &:last-child {
+        border-top-right-radius: 20px;
+        border-right: $borderType;
+      }
+    }
+  }
+
+  &-bottom {
+    display: flex;
+
+    button {
+      border-bottom: $borderType;
+
+      &:first-child {
+        border-bottom-left-radius: 20px;
+      }
+
+      &:last-child {
+        border-bottom-right-radius: 20px;
+        border-right: $borderType;
+      }
+    }
+  }
+
+
+}
